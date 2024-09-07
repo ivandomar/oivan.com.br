@@ -1,14 +1,17 @@
 <script setup lang="ts">
 import { RouterView } from 'vue-router';
-import HelloWorld from './components/HelloWorld.vue';
+import ContactBarComponent from './components/ContactBarComponent.vue';
+import SplashComponent from './components/SplashComponent.vue';
 </script>
 
 <template>
 	<div class="wrapper">
-		<HelloWorld msg="You did it!" />
-	</div>
+		<SplashComponent title="o ivan" subtitle="engenheiro de software + soluções digitais" />
 
-	<RouterView />
+		<RouterView />
+
+		<ContactBarComponent />
+	</div>
 </template>
 
 <style scoped>
