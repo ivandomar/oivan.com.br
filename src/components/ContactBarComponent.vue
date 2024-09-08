@@ -9,4 +9,11 @@ import ContactMeanComponent from './ContactMeanComponent.vue';
 	</div>
 </template>
 
-<style scoped></style>
+<style scoped>
+#contact-bar {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: baseline;
+}
+</style>
