@@ -15,16 +15,25 @@ defineProps<{
 <style scoped>
 #splash-wrapper {
 	display: flex;
-	height: 100vh;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
 
 h1 {
-	font-weight: bolder;
-	font-size: 2.6rem;
 	position: relative;
-	top: -10px;
+	color: #222;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 20rem;
+	line-height: 20rem;
+	letter-spacing: 5rem;
+}
+
+h2 {
+	color: #555;
+	text-align: center;
+	font-size: 2rem;
+	letter-spacing: 1rem;
 }
 </style>

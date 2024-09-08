@@ -15,8 +15,11 @@ import SplashComponent from './components/SplashComponent.vue';
 </template>
 
 <style scoped>
-header {
-	line-height: 1.5;
-	max-height: 100vh;
+.wrapper {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100vh;
 }
 </style>

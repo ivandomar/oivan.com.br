@@ -15,5 +15,6 @@ import ContactMeanComponent from './ContactMeanComponent.vue';
 	display: flex;
 	justify-content: center;
 	align-items: baseline;
+	margin-top: 5rem;
 }
 </style>
