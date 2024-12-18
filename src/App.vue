@@ -6,7 +6,7 @@ import SplashComponent from './components/SplashComponent.vue';
 
 <template>
 	<div class="wrapper">
-		<SplashComponent title="o ivan" subtitle="engenheiro de software + soluções digitais" />
+		<SplashComponent title="ivan" subtitle="engenheiro de software + soluções digitais" />
 
 		<RouterView />
 

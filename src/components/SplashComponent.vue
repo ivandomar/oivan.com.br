@@ -25,15 +25,26 @@ h1 {
 	color: #222;
 	text-align: center;
 	font-weight: bolder;
-	font-size: 20rem;
-	line-height: 20rem;
-	letter-spacing: 5rem;
+	font-size: 25vw;
+	line-height: 25vw;
+	letter-spacing: 8vw;
+	text-align: center;
+	margin-right: -8vw;
 }
 
 h2 {
 	color: #555;
 	text-align: center;
-	font-size: 2rem;
-	letter-spacing: 1rem;
+	font-size: 2vw;
+	letter-spacing: 0.7rem;
+	margin-right: -0.7vw;
+}
+
+@media screen and (max-width: 767px) {
+	h1 {
+		font-size: 30vw;
+		letter-spacing: 8vw;
+		line-height: 30vw;
+	}
 }
 </style>
